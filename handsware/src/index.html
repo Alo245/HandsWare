@@ -8,7 +8,150 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Traducción LSC + IA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="topbar">
+    <div class="wrap nav">
+      <div class="logo">LSC + IA</div>
+      <nav class="nav-links" id="menu">
+        <a href="#comunidad">Comunidad LSC</a>
+        <a href="#difusion">Difusión</a>
+        <a href="#proyecto">Sobre el Proyecto</a>
+      </nav>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <h1>
+      “Rompemos las barreras del silencio” Traducción instantánea
+      entre <strong>Lengua de Señas Colombiana</strong> y voz con <strong>IA</strong>
+    </h1>
+    <div class="cta">
+      <a class="btn primary" href="#beta">Únete a la Beta Gratuita</a>
+      <a class="btn ghost" href="#mas">Conoce Más</a>
+    </div>
+  </section>
+
+  <!-- PILARES -->
+  <section class="wrap" id="pilares">
+    <h2 class="section-title">Pilares de Investigación</h2>
+    <div class="grid cards">
+      <article class="card">
+        <div class="img" style="background-image:url('https://images.unsplash.com/photo-1529336953121-ad5a0d43d0d2?q=80&w=1600&auto=format&fit=crop');"></div>
+        <h3>Reconocimiento automático de señas</h3>
+      </article>
+      <article class="card">
+        <div class="img" style="background-image:url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1600&auto=format&fit=crop');"></div>
+        <h3>Desarrollo Técnico</h3>
+      </article>
+      <article class="card">
+        <div class="img" style="background-image:url('https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=1600&auto=format&fit=crop');"></div>
+        <h3>Validación Comunitaria</h3>
+      </article>
+      <article class="card">
+        <div class="img" style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format&fit=crop');"></div>
+        <h3>Divulgación y Ética</h3>
+      </article>
+    </div>
+  </section>
+
+  <!-- HISTORIAS -->
+  <section class="wrap">
+    <h2 class="section-title">Historias del Impacto</h2>
+    <div class="grid people">
+      <article class="person">
+        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=1600&auto=format&fit=crop');"></div>
+        <div class="meta">
+          <h4>Ana Agudelo</h4>
+          <small>Docente</small>
+          <p>Con esta herramienta, sus estudiantes participan más activamente en clase.</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1517963628607-235ccdd5476e?q=80&w=1600&auto=format&fit=crop');"></div>
+        <div class="meta">
+          <h4>Name</h4>
+          <small>Estudiante</small>
+          <p>La app facilita la comunicación con sus compañeros oyentes.</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="ph" style="background-image:url('https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1600&auto=format&fit=crop');"></div>
+        <div class="meta">
+          <h4>Name</h4>
+          <small>Estudiante</small>
+          <p>La comprensión de contenidos se volvió más fluida y natural.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="wrap">
+    <div class="cta-band">
+      <h3>Conoce nuestro proceso de investigación</h3>
+      <p>Investigación aplicada en procesamiento de lengua de señas mediante técnicas de machine learning.</p>
+      <a class="btn ghost" href="#conoce">Conoce más</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="wrap">
+    <h2 class="section-title">Preguntas Frecuentes</h2>
+    <div class="faq">
+      <details class="qa">
+        <summary>¿Cómo funciona el reconocimiento de señas?</summary>
+        <p>Utilizamos algoritmos de visión computacional que analizan movimientos de manos y brazos, comparándolos con un dataset validado.</p>
+      </details>
+      <details class="qa">
+        <summary>¿Cómo validaron las señas con la comunidad sorda?</summary>
+        <p>Trabajamos con intérpretes y usuarios de LSC para asegurar que nuestro dataset refleje correctamente la Lengua de Señas Colombiana oficial.</p>
+      </details>
+      <details class="qa">
+        <summary>¿Qué impacto esperan generar?</summary>
+        <p>Queremos que la tecnología sea una herramienta de inclusión social que resuelva problemas reales de accesibilidad.</p>
+      </details>
+      <details class="qa">
+        <summary>¿Cómo pueden apoyar el proyecto?</summary>
+        <p>Participa en pruebas, envía feedback y difunde el proyecto en redes sociales.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap footgrid">
+      <div class="footlinks">
+        <a href="#">Términos &amp; condiciones</a>
+        <a href="#">Política de privacidad</a>
+        <a href="#">Patrocinadores</a>
+      </div>
+      <div>
+        <p>Support contact: <a href="mailto:handiswave@gmail.com">handiswave@gmail.com</a></p>
+        <p>2025</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
   <app-root></app-root>
 </body>
 </html>
